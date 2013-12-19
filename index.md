@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Apprhythmia
+title: 
 tagline: A different pulse on app development
+tags: [test tag]
 ---
 {% include JB/setup %}
 
