@@ -8,15 +8,15 @@ CADPage For iOS allows you to receive pages, view details and maps, and respond 
 
 ## How is it different from the Android version?
 
-First, CADPage For iOS is written and maintained by a different developer. Ken (CADPage Android Developer, and Java ninja) was kind enough to allow me to develop this version, and has supported my efforts along the way. 
+First, CADPage For iOS is written and maintained by a different developer. Ken (CADPage Android Developer, and Java ninja) was kind enough to allow me to develop this version, and has supported my efforts along the way.
 
-In the sense of app code, design, and environment, the differences are night and day. 
+In the sense of app code, design, and environment, the differences are night and day.
 
-Android apps are developed using Java, and apps on Android devices have deeper access to the operating system itself, allowing them to go places and get information that iOS apps cannot. Apps developed for iOS are written in Objective-C, and are "sandboxed", which means they don't have the same level of access afforded to Android apps. For instance, CADPage on Android can receive messages as text messages, while CADPage For iOS cannot. 
+Android apps are developed using Java, and apps on Android devices have deeper access to the operating system itself, allowing them to go places and get information that iOS apps cannot. Apps developed for iOS are written in Objective-C, and are "sandboxed", which means they don't have the same level of access afforded to Android apps. For instance, CADPage on Android can receive messages as text messages, while CADPage For iOS cannot.
 
 ## Wait...you mean it doesn't support getting pages as text messages?
 
-In short, no. 
+In short, no.
 
 Apple, for security reasons, requires all apps to be "sandboxed". This means they have **very** limited access to the operating system, and only through approved methods. Currently, Apple does not provide a way to read or intercept text messages, and this is not likely to change. Giving apps access like this could allow for evil doings by nefarious developers, like reading all your texts, or uploading them to a server. Some say it's a reason to pick Android over iOS, but I'll leave that decision to you.
 
@@ -32,15 +32,12 @@ Currently CADPage For iOS supports receiving pages from Active911 and CodeMessag
 
 ## How do I login to Active911?
 
-Use the email address you use to login to Active911.com as your username, and the device code assigned to you by your Active911 account administrator. It looks like this:
-```
-1234-ABCD
-``` 
+Use the email address you use to login to Active911.com as your username, and the device code assigned to you by your Active911 account administrator. It looks like this: `1234-ABCD`
 ## How do I login to CodeMessaging?
 
-Login using the same username and password you use to login to CodeMessaging.net. 
+Login using the same username and password you use to login to CodeMessaging.net.
 
-## This app sucks. How do I get a refund? 
+## This app sucks. How do I get a refund?
 
 Wow, that was kind of blunt. I'm sorry you feel that way, but I'm happy to tell you how anyway.
 

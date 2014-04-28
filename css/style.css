@@ -1,0 +1,219 @@
+/*
+**** HOW TO USE @MEDIA FOR DIFFERENT DEVICES SIZES ****
+iPhone (portrait and landscape) are Extra small, and are the default
+iPad   (portrait and landscapre) are Small Device
+
+****    Small Screen Devices    ****
+@media (min-width: 768px) {
+  a {
+    color: red;
+  }
+}
+****    Medium Screen Devices    ****
+@media (min-width: 992px) {
+  a {
+    color: green;
+  }
+}
+****    Large Screen Devices    ****
+@media (min-width: 1200px) {
+  a {
+    color: yellow;
+  }
+}
+*/
+/* ***** CAN BE TESTED AT BOTTOM OF FILE ***** */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #ddd;
+  background: #2C2C2C;
+  /* border-top: 5px solid #fc0; */
+  /*box-shadow: inset 0 3px 30px rgba(0,0,0,.3);*/
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  padding-top: 0px;
+  padding-bottom: 20px;
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+h2, .h2 {
+  font-size: 28px;
+}
+
+a {
+  color: #177ED0;
+  text-decoration: none;
+  transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+
+a:active, a:hover {
+  outline:0;
+}
+
+a:hover {
+  color: #29AFFC;
+}
+
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+  margin:0px;
+}
+
+
+.navbar-static-top {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.navbar-toggle {
+  background: #333333;
+  margin-top:13px;
+}
+
+.icon-bar {
+  background:#2c2c2c;
+}
+
+
+.navbar-nav li a {
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+
+.navbar-nav>li>a {
+  border: none;
+}
+
+.navbar-nav>li>a:hover {
+  background: #252525;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  border: none;
+}
+
+.navbar-nav li.current a {
+  background: #177ED0;
+  color: #222;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 5px rgba(0,0,0,.5);
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+}
+
+.navbar-brand {
+  text-shadow: 0 1px 0 rgba(0,0,0,1);
+}
+
+.article {
+  background: #444;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+  margin: 10px 5px;
+  padding: 40px 40px 30px;
+  font-size: 21px;
+}
+
+.jumbotron {
+  padding-bottom:0px;
+  background-color: #333333;
+  color: #DDDDDD;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+/* Code Highlighting */
+
+
+pre, code, pre code {
+    background: inherit;
+    border: inherit;
+    word-wrap: normal;
+    overflow: visible;
+    white-space: pre;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+    font-size: 14px;
+    padding: 0 .5em;
+    line-height: 1.8em;
+}
+
+@media (min-width: 768px){pre, code {
+        font-size: 16px;
+    }
+}
+
+.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, .3), 0 1px 0 rgba(255, 255, 255, .1), 0 -1px 0 rgba(0, 0, 0, .5);
+}
+
+.note code {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    font-size: 0.8em;
+}
+
+.highlight {
+    padding: 10px 0;
+    width: 100%;
+    overflow: auto;
+}
+
+/* **** FOR SMALL SCREEN DEVICES (iPad) OR GREATER **** */
+/* ****                NOT USED YET                **** */
+
+@media (min-width: 768px) {
+  h2, .h2 {
+    font-size:34px;
+  }
+}
+
+
+/* **** FOR MEDIUM SCREEN DEVICES OR GREATER  **** */
+@media (min-width: 768px) {
+.jumbotron {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+}
+
+
+/* **** FOR LARGE SCREEN DEVICES OR GREATER **** */
+/* ****            NOT USED YET            **** */
+/*
+@media (min-width: 1200px) {
+
+}
+*/
