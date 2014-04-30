@@ -1,6 +1,7 @@
 name: Your New Jekyll Site
 pygments: false
-url: http://apprhythmia.github.io
+paginate: 5
+paginate_path: "blog/page:num"
 
 markdown: redcarpet
 redcarpet:
