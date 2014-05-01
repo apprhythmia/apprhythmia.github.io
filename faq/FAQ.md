@@ -1,5 +1,6 @@
 ---
 layout: faq
+title: FAQ
 ---
 
 ## What is CADPage For iOS?
