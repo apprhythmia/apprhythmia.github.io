@@ -1,5 +1,5 @@
 ---
-layout: faq
+layout: docs
 title: FAQ
 ---
 
