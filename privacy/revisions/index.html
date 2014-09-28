@@ -6,13 +6,13 @@ title: Privacy Policy Revisions Listing
 {% for revision in site.privacy_revisions reversed %}
   <li>
     {% if revision.version == 0 %}
-      <a class="h3">{{ revision.date }}</a>
+      <span class="h3">{{ revision.date }}</span>
       <ul><li><a class="h4" href="{{ revision.url }}">Initial Version</a></li></ul>
     {% elsif revision.current == true %}
-      <a class="h3">{{ revision.date }}</a>
+      <span class="h3">{{ revision.date }}</span>
       <ul><li><a class="h4" href="{{ revision.url }}">Current Version</a></li></ul>
     {% else %}
-      <a class="h3">{{ revision.date }}</a>
+      <span class="h3">{{ revision.date }}</span>
       <ul><li><a class="h4" href="{{ revision.url }}">Revision {{ revision.version }}</a></li></ul>
     {% endif %}
   </li>
