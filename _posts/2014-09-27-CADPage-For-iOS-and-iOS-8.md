@@ -5,8 +5,8 @@ date:   2014-09-27
 categories:
 ---
 
-<div class="h4" align="center" style="color:red">Status: In Review</div>
-<div class="h4" align="center">2014-09-28 03:14:38 -0500</div>
+<div class="h4" align="center" style="color:green">Status: Available In The App Store</div>
+<div class="h4" align="center">2014-09-29 15:48:00 -0500</div>
 
 
 As I'm sure you're all well aware, Apple recently pushed out a shiny new update
