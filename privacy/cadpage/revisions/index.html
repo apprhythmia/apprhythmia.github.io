@@ -3,7 +3,7 @@ layout: docs
 title: Privacy Policy Revisions Listing
 ---
 <!-- This loops through the paginated posts -->
-{% for revision in site.privacy_revisions reversed %}
+{% for revision in site.cadpage_privacy_revisions reversed %}
   <li>
     {% if revision.version == 0 %}
       <span class="h3">{{ revision.date }}</span>

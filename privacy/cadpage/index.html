@@ -1,0 +1,11 @@
+---
+layout: docs
+title: Privacy Policy
+---
+<!-- This loops through the paginated posts -->
+{% for revision in site.cadpage_privacy_revisions reversed %}
+  {% if forloop.first == true %}
+    <div align="center" class="h1">PRIVACY POLICY</div>
+    <p>{{ revision.content }}</p>
+  {% endif %}
+{% endfor %}
